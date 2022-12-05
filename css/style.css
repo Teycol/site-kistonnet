@@ -1,0 +1,175 @@
+/*  font-family: 'Poppins', sans-serif;  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+:root{
+    --azul-claro: #1CEAD3;
+    --branco: #FFFFFF;
+    --fundo-escuro: #1F2532;
+    --roxo-claro: #5D32C7;
+
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.backgroud{
+    background: var(--fundo-escuro);
+}
+/*Classes reutilizaveis*/
+
+.container{
+    max-width: 1440px;
+    padding: 0 80px;
+    margin: 0 auto;
+
+}
+
+/*Classes site*/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 37px 0;
+    
+}
+
+/*Menu*/
+
+.logo{
+    width: 80px;
+    height: 53.81px;
+    left: 132px;
+    top: 37px;
+}
+
+.ul {
+
+    display: flex;
+    align-items: center;
+    padding: 0;
+    gap: 25px;
+    position: relative;
+}
+
+.ul li a{
+    color: var(--branco);
+    font-size: 16px;
+    font-weight: 600px;
+}
+
+.ul li a:hover{
+    color: var(--roxo-claro);
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 600px;
+    transition: color .3s;
+}
+
+/*Sub-Menu*/
+
+.ul li ul{
+    position: absolute;
+    display: none;
+}
+
+.ul  li:hover ul{
+    top: 34px;
+
+    display: block;
+}
+
+/*Menu icon*/
+
+.icone-menu{
+    display: none;
+}
+
+.btn{
+    padding: 12px 25px;
+    border-radius: 25px;
+    background: var(--roxo-claro);
+    border: none;
+    color: #1CEAD3;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+
+    text-align: center;
+}
+
+/*main*/
+
+main .container{
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+.main-text{
+    width: 431px;
+    height: 165px;
+    left: 162px;
+    top: 246px;
+   
+}
+
+main .texto-principal{
+    margin-left: 160px;
+    margin-top: 80px;
+    display: flex;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 60px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+main .texto-principal img{
+    width: 50px;
+height: 50.71px;
+left: 532px;
+margin-top: 50px;
+}
+
+h2{
+    width: 391px;
+    height: 0px;
+    left: 188px;
+    top: 383px;
+    margin-left: 125px;
+    margin-top: 20px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 0%;
+    /* identical to box height, or 0px */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.main-img{
+    width: 396.34px;
+    height: 422px;
+    left: 914px;
+    top: 167px
+}
