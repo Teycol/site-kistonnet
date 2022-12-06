@@ -118,10 +118,10 @@ main .container{
 
 }
 .main-text{
-    width: 431px;
-    height: 165px;
-    left: 162px;
-    top: 246px;
+    width: 311px;
+    height: 119px;
+    left: 172px;
+    top: 233px;
    
 }
 
@@ -142,9 +142,9 @@ main .texto-principal{
 
 main .texto-principal img{
     width: 50px;
-height: 50.71px;
-left: 532px;
-margin-top: 50px;
+    height: 50.71px;
+    left: 532px;
+    margin-top: 50px;
 }
 
 h2{
@@ -172,4 +172,79 @@ h2{
     height: 422px;
     left: 914px;
     top: 167px
+}
+
+/*responsivo*/
+
+@media (max-width: 1065px){
+    main .container{
+        flex-direction: column;
+
+    } 
+
+    main .container .main-img{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    main .container .main-text{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    main .container .main-text .texto-principal{
+        margin: 0;
+        width: 311px;
+        height: 119px;
+        left: 172px;
+        top: 233px;
+        font-family: 'Poppins';
+        font-style: normal;
+        
+        font-weight: 100px;
+
+    
+        color: #FFFFFF;
+    }    
+
+    main .container .main-text .texto-principal img{
+
+        margin: 0;
+        width: 50px;
+        height: 50.71px;
+        left: 532px;
+        margin-top: 50px;
+       
+
+    }
+
+
+    main .container .main-text h2{
+        width: 391px;
+        height: 0px;
+        left: 188px;
+        top: 383px;
+        margin: 0;
+        margin-top: 10px;
+        
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 27px;
+        line-height: 0%;
+    }
+
+    main .container .main-img{
+        margin-top: 60px;
+
+    }
+
+    .ul{
+        display: none;
+    }
 }
