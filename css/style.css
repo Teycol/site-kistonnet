@@ -176,7 +176,7 @@ h2{
 
 /*responsivo*/
 
-@media (max-width: 1065px){
+@media (max-width: 1152px){
     main .container{
         flex-direction: column;
 
@@ -243,8 +243,41 @@ h2{
         margin-top: 60px;
 
     }
+}
+
+@media (max-width: 849px){
 
     .ul{
         display: none;
+    }
+
+    .logo img{
+        display: none;
+    }
+
+    
+}
+
+@media (max-width: 375px){
+
+    main .container .main-text .texto-principal{
+        width: 337px;
+    }
+
+    main .container .main-text .texto-principal{
+        margin-top: 57px;
+    }
+
+    main .container .main-text h2 {
+        width: 362px;
+        font-size: 24px;
+    }
+    .main-img img{
+        margin-top: 100px;
+        width: 300px;
+    }
+
+    .main-text h2{
+        font-size: 23px;
     }
 }
